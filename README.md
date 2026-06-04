@@ -2,7 +2,7 @@
 
 References:
 
-* FactoryTalk Batch Server API `batch-rm003.pdf`
+* [FactoryTalk Batch Server API `batch-rm003.pdf`](https://literature.rockwellautomation.com/idc/groups/literature/documents/rm/batch-rm003_-en-d.pdf)
 
 ## Notes
 
