@@ -7,8 +7,8 @@ environments:
       win-64:
       - conda: https://conda.anaconda.org/conda-forge/win-64/bzip2-1.0.8-h0ad9c76_9.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/ca-certificates-2026.5.20-h4c7d964_0.conda
-      - conda: https://conda.anaconda.org/conda-forge/win-64/dotnet-runtime-10.0.0-h57928b3_0.conda
-      - conda: https://conda.anaconda.org/conda-forge/win-64/dotnet-sdk-10.0.100-h57928b3_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/win-64/dotnet-runtime-9.0.4-h57928b3_1.conda
+      - conda: https://conda.anaconda.org/conda-forge/win-64/dotnet-sdk-9.0.203-h57928b3_1.conda
       - conda: https://conda.anaconda.org/conda-forge/win-64/libexpat-2.8.1-hac47afa_0.conda
       - conda: https://conda.anaconda.org/conda-forge/win-64/libffi-3.5.2-h3d046cb_0.conda
       - conda: https://conda.anaconda.org/conda-forge/win-64/liblzma-5.8.3-hfd05255_0.conda
@@ -45,22 +45,22 @@ packages:
   license: ISC
   size: 130182
   timestamp: 1779289939595
-- conda: https://conda.anaconda.org/conda-forge/win-64/dotnet-runtime-10.0.0-h57928b3_0.conda
-  sha256: 0707dfd8eb03aae3263b25b36fae3aeef332feaf89e25278d10211ddda0b5771
-  md5: 459da043d2e99f92f7ea123f9f3824ca
+- conda: https://conda.anaconda.org/conda-forge/win-64/dotnet-runtime-9.0.4-h57928b3_1.conda
+  sha256: cc17a32fb0259bd051bfa2d8991d25cf2844819903ca20d3351a72b413f0ee6f
+  md5: 747355001a981076b6dc30a45d51a67b
   license: MIT
   license_family: MIT
-  size: 28926799
-  timestamp: 1764576397445
-- conda: https://conda.anaconda.org/conda-forge/win-64/dotnet-sdk-10.0.100-h57928b3_0.conda
-  sha256: dd599c2f3677a53becdf6b2360bb55f86e748216411692af310bb22118e92241
-  md5: 5eb46845e8f3d9d06b19adcc94cda530
+  size: 28003640
+  timestamp: 1746401156232
+- conda: https://conda.anaconda.org/conda-forge/win-64/dotnet-sdk-9.0.203-h57928b3_1.conda
+  sha256: 97e2c3f137e4450f4f68aff658c9c69004192ea93e0ad4ecf109e738a9a406e2
+  md5: fc8ced2ef5c985717e80141c5b8b94b8
   depends:
-  - dotnet-runtime 10.0.0.*
+  - dotnet-runtime 9.0.4.*
   license: MIT
   license_family: MIT
-  size: 143429902
-  timestamp: 1764576558695
+  size: 144468260
+  timestamp: 1746401332946
 - conda: https://conda.anaconda.org/conda-forge/win-64/libexpat-2.8.1-hac47afa_0.conda
   sha256: a65e518c20d1482182bc0f1f6dd5d992f25ca44c3b32307be39ae8310db8f060
   md5: 23eb9474a16d4b9f6f27429989e82002
