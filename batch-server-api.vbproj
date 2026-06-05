@@ -7,8 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Reference Include="Interop.YourLib">
-      <HintPath>lib\Interop.YourLib.dll</HintPath>
+    <Reference Include="Interop.batchsvr">
+      <HintPath>lib\Interop.batchsvr.dll</HintPath>
       <Private>true</Private>
     </Reference>
   </ItemGroup>
