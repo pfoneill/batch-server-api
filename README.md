@@ -22,7 +22,7 @@ Install the .NET SDK system wide, first download from the Microsoft website.
 dotnet --version
 ```
 
-Install Visual Studio Build Tools - https://visualstudio.microsoft.com/downloads/#remote-tools-for-visual-studio-2022
+Install Visual Studio Build Tools - <https://visualstudio.microsoft.com/downloads/#remote-tools-for-visual-studio-2022>
 Visual Studio Build Tools are used for creating interop assembleys. Install the .NET Framework and .NET desktop build tools under the workloads tab.
 
 [Configure VS Code](https://code.visualstudio.com/docs/cpp/config-msvc).
