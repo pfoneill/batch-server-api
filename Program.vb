@@ -16,6 +16,14 @@ Module Program
             strReturn = svr.GetItem(strItem)
             Console.WriteLine($"BatchServer.GetItem('{strItem}') returned: {strReturn}")
 
+            strItem = "SERVERNAME"
+            strReturn = svr.GetItem(strItem)
+            Console.WriteLine($"BatchServer.GetItem('{strItem}') returned: {strReturn}")
+
+            strItem = "VERSION"
+            strReturn = svr.GetItem(strItem)
+            Console.WriteLine($"BatchServer.GetItem('{strItem}') returned: {strReturn}")
+
         Catch ex As Exception
             Console.WriteLine($"Failed to create BatchServer: {ex.Message}")
         Finally
